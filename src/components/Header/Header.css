@@ -1,6 +1,6 @@
 @import url("../css-config/media.css") screen;
 *{
-    margin:0px;
+    margin:0px ;
     padding: 0px;
 }
 
@@ -29,18 +29,22 @@ li{
 
 .left{
     display: none;
-    gap: 40px;
+  
 }
 .center{
     font-size: 22px;
    
-    left: -40px;
+    
     font-weight: 700;
     position: relative;
 }
+ul{
+    display: flex;
+    gap: 34px;
+}
 .right{
     display: flex;
-    gap: 20px;
+    gap: 34px;
     align-items: center;
 }
 .right>svg{
