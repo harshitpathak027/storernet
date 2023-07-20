@@ -6,11 +6,13 @@
 
 
 .main-header{
-    padding: 4px 20px;
+    padding: 6px 20px;
    position: sticky;
    top: 0;
     background-color: #8e2de2;
     color:aliceblue;
+    
+    
     
 }
 li{
@@ -21,6 +23,7 @@ li{
     display: flex;
     justify-content:space-between;
     align-items: center;
+   
     
 }
 
@@ -30,7 +33,10 @@ li{
 }
 .center{
     font-size: 22px;
+   
+    left: -40px;
     font-weight: 700;
+    position: relative;
 }
 .right{
     display: flex;
@@ -60,7 +66,7 @@ li{
 @media screen and (min-width: 640px) {
     .main-header{
         background-color: #212121;
-        padding: 4px 80px ;
+        padding: 8px 80px ;
         position: sticky;
         top: 0;
         
