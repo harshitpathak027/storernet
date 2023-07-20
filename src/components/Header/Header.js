@@ -12,7 +12,7 @@ const Header = () => {
     <li>About</li>
     <li>Category</li>
 </ul>
-<div className="center">Jbevstore</div>
+<div className="center">StoreNet</div>
 <div className="right">
     <TbSearch/>
     <AiOutlineHeart/>
